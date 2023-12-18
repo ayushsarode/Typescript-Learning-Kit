@@ -7,7 +7,16 @@ console.log(Name);
 
 let Num: number;
 Num = 9709.55;
-Num.toFixed;
 console.log(Num);
+
+let Answer: string;
+
+// this is when you need the type the most as the system can't decide what type is the Answer, it sets to "any", so better set the type here
+function getAnswer() {
+  return "Hello world";
+}
+
+Answer = getAnswer();
+console.log(Answer);
 
 export {};
