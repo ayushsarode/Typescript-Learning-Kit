@@ -33,6 +33,8 @@ function getDBid(id: number | string) {
   }
 }
 
+//arrays
+
 const data: number[] = [1, 2, 4, 5]; // here you can't add string array to do that -
 
 const data1: (number | string)[] = [1, 3, 4, 5, "55"];
